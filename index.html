@@ -9,127 +9,246 @@
 
 <body>
 
-<header>
-<div class="nav">
+<header class="header">
+<div class="wrap nav">
+
 <a class="brand" href="index.html">
-PIXEL <span>HUB</span>
+PIXEL<span>HUB</span>
 <small>DESIGN STUDIO</small>
 </a>
 
-<button onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+<button class="menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
 
 <nav>
-<a href="index.html">Home</a>
+<a class="active" href="index.html">Home</a>
 <a href="about.html">About</a>
 <a href="services.html">Services</a>
 <a href="portfolio.html">Portfolio</a>
 <a href="contact.html">Contact</a>
 </nav>
+
 </div>
 </header>
+
 
 <main>
 
 <section class="hero">
 
+<div class="wrap hero-grid">
+
 <div>
-<p class="eyebrow">CREATIVE • PRINT • PHOTOGRAPHY</p>
 
-<h1>
-We Design.<br>
-<span>We Print.</span><br>
-We Capture.
-</h1>
-
-<p>
-Your creative partner for premium design, printing, photography and branding solutions.
+<p class="eyebrow">
+CREATIVE • PRINT • PHOTOGRAPHY
 </p>
 
-<a class="btn" href="services.html">Explore Services</a>
+<h1>
+Ideas that look<br>
+<em>impossible</em><br>
+to ignore.
+</h1>
 
-<a class="btn outline" href="https://wa.me/919516956347">
+<p class="lead">
+Your creative partner for premium design, printing, photography and branding solutions in Raipur.
+</p>
+
+<div class="buttons">
+
+<a class="btn gold" href="services.html">
+Explore Services ↗
+</a>
+
+<a class="btn line" href="https://wa.me/919516956347">
 WhatsApp Us
 </a>
+
 </div>
 
-<div class="hero-card">
-<img src="uv-printing.png" alt="Pixel Hub Design Studio">
+</div>
+
+
+<div class="hero-visual">
+
+<div class="visual-frame">
+
+<div class="visual-glow"></div>
+
+<div class="visual-text">
+
+<small>PIXEL HUB</small>
+
+<b>
+CREATE.<br>
+PRINT.<br>
+CAPTURE.
+</b>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </section>
 
 
-<section class="section">
+<section class="wrap section">
 
-<p class="eyebrow">WHAT WE DO</p>
+<div class="section-title">
 
-<h2>Everything your brand needs.</h2>
+<p class="eyebrow">
+WHAT WE DO
+</p>
+
+<h2>
+Everything your brand needs.
+</h2>
+
+<p>
+From first idea to final print, we turn your vision into work that gets noticed.
+</p>
+
+</div>
+
 
 <div class="cards">
 
-<article>
-<b>01</b>
-<h3>Graphic Design</h3>
-<p>Logos, visiting cards, social media creatives and marketing designs.</p>
+
+<article class="card">
+
+<span class="number">
+01
+</span>
+
+<h3>
+Graphic Design
+</h3>
+
+<p>
+Logos, visiting cards, social media creatives, invitations and brand identity.
+</p>
+
+<a href="services.html">
+View service ↗
+</a>
+
 </article>
 
-<article>
-<b>02</b>
-<h3>Printing & Branding</h3>
-<p>Flex, banners, UV printing, sign boards and print solutions.</p>
+
+<article class="card">
+
+<span class="number">
+02
+</span>
+
+<h3>
+Printing & Branding
+</h3>
+
+<p>
+Flex, banners, UV printing, sign boards and outdoor branding.
+</p>
+
+<a href="services.html">
+View service ↗
+</a>
+
 </article>
 
-<article>
-<b>03</b>
-<h3>Photography</h3>
-<p>Wedding, pre-wedding, events, portraits and professional shoots.</p>
+
+<article class="card">
+
+<span class="number">
+03
+</span>
+
+<h3>
+Photography
+</h3>
+
+<p>
+Wedding, pre-wedding, events, portraits and professional photography.
+</p>
+
+<a href="services.html">
+View service ↗
+</a>
+
 </article>
+
 
 </div>
 
 </section>
 
 
-<section class="photo-section">
+<section class="feature">
+
+<div class="wrap feature-grid">
 
 <div>
-<p class="eyebrow">OUR WORK</p>
+
+<p class="eyebrow">
+WHY PIXEL HUB
+</p>
 
 <h2>
-Design that gets <span>noticed.</span>
+Small details.<br>
+<em>Big difference.</em>
 </h2>
 
 <p>
-We create designs, prints and visuals for brands and special moments.
+Great design should communicate, connect and make people remember your brand.
 </p>
 
-<a class="btn" href="services.html">
-Explore Services
+<a class="btn gold" href="about.html">
+Know More About Us ↗
 </a>
+
 </div>
 
-<img src="uv-printing.png" alt="UV Printing">
+
+<div class="feature-list">
+
+<div>
+<b>01</b>
+<span>Creative thinking</span>
+</div>
+
+<div>
+<b>02</b>
+<span>Premium execution</span>
+</div>
+
+<div>
+<b>03</b>
+<span>Local support, personal touch</span>
+</div>
+
+</div>
+
+</div>
 
 </section>
 
 
-<section class="photo-section">
+<section class="wrap cta">
 
-<img src="logo.png" alt="Pixel Hub Design Studio">
-
-<div>
-
-<p class="eyebrow">LET'S WORK TOGETHER</p>
+<p class="eyebrow">
+LET'S CREATE
+</p>
 
 <h2>
-Let's create something <span>memorable.</span>
+Have an idea?<br>
+<em>Let's make it real.</em>
 </h2>
 
-<a class="btn" href="contact.html">
-Start a Project →
+<a class="btn gold" href="contact.html">
+Start a Project ↗
 </a>
-
-</div>
 
 </section>
 
@@ -138,19 +257,64 @@ Start a Project →
 
 <footer>
 
-<p>
-9575170175 • 9516956347 • pixelhubds04@gmail.com
-</p>
+<div class="wrap footer-grid">
+
+
+<div>
+
+<a class="brand" href="index.html">
+PIXEL<span>HUB</span>
+<small>DESIGN STUDIO</small>
+</a>
 
 <p>
-Shankar Nagar, Kachna Road, Near V9 Apartment, Khamhardih, Raipur, Chhattisgarh
+Design • Printing • Photography • Branding
 </p>
 
-<small>
-© 2026 Pixel Hub Design Studio
-</small>
+</div>
+
+
+<div>
+
+<h4>
+Contact
+</h4>
+
+<p>
+9575170175<br>
+9516956347<br>
+pixelhubds04@gmail.com
+</p>
+
+</div>
+
+
+<div>
+
+<h4>
+Visit Us
+</h4>
+
+<p>
+Shankar Nagar, Kachna Road<br>
+Near V9 Apartment, Khamhardih<br>
+Raipur, Chhattisgarh
+</p>
+
+</div>
+
+
+</div>
+
+
+<div class="copyright">
+
+© 2026 Pixel Hub Design Studio. All Rights Reserved.
+
+</div>
 
 </footer>
+
 
 <script src="script.js"></script>
 
